@@ -48,6 +48,10 @@ dependencies {
     // proto datastore
     implementation("androidx.datastore:datastore:1.0.0")
     implementation("com.google.protobuf:protobuf-javalite:3.14.0")
+
+    // jetpack compose
+    implementation("androidx.compose.ui:ui-graphics-android:1.5.4")
+    implementation("androidx.compose.material3:material3:1.1.2")
 }
 
 protobuf {
